@@ -1,0 +1,60 @@
+.venue-detail-page-custom {
+  padding: 20px;
+}
+
+.venue-details-container-custom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.venue-info-custom {
+  width: 50%;
+}
+
+.timeslots-custom ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.venue-image-custom {
+  width: 40%;
+}
+
+.venue-image-custom img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.maps-button-custom {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cart-section-custom {
+  margin-top: 20px;
+}
+
+.add-to-cart-button-custom {
+  background-color: #4CAF50; /* Green button for Add to Cart */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.review-section-custom {
+  margin-top: 40px;
+}
+
+.reviews-list-custom ul {
+  list-style-type: none;
+  padding: 0;
+}

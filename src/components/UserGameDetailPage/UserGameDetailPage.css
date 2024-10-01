@@ -1,0 +1,89 @@
+.game-detail-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #D1FAE5; /* Light emerald background */
+    min-height: 100vh;
+    gap: 40px;
+  }
+  
+  .left-section, .right-section {
+    flex: 1;
+  }
+  
+  .activity-box {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #065F46; /* Dark emerald text */
+  }
+  
+  .activity-box h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .activity-box p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .maps-button {
+    background-color: #34D399; /* Light emerald green */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .maps-button:hover {
+    background-color: #065F46; /* Dark emerald on hover */
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .players-box {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #065F46; /* Dark emerald text */
+  }
+  
+  .players-box h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .players-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .players-box ul li {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .nearby-venues-button {
+    background-color: #10B981; /* Emerald green button */
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nearby-venues-button:hover {
+    background-color: #065F46; /* Dark emerald on hover */
+  }
+  
